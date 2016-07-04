@@ -110,7 +110,7 @@ public:
 		{
 			if (_root->_key == key)
 			{
-      	delete _root;
+      				delete _root;
 				_root = NULL;
 				return true;
 			}
